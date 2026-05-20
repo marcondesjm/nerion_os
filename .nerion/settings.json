@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/vscode-settings.json",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "github.copilot.chat.enabled": true,
+  "files.exclude": {
+    "**/.nerion": false,
+    "**/_memoria": false,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
