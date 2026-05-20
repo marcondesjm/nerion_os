@@ -1,4 +1,4 @@
-# scripts/ — utilitários do MazyOS
+# scripts/ — utilitários do NERION OS
 
 Scripts Node.js e Python que as skills chamam quando precisam fazer coisas fora do alcance da IA pura (gerar imagem, postar em rede social, renderizar HTML em PNG).
 
@@ -38,9 +38,9 @@ npm install playwright
 npx playwright install chromium
 ```
 
-## Como o MazyOS lida com isso
+## Como o NERION OS lida com isso
 
-Quando você roda uma skill que precisa de script ausente, o Claude vai:
+Quando você roda uma skill que precisa de script ausente, o Codex vai:
 
 1. Detectar que falta o script
 2. Te perguntar se quer configurar agora

@@ -1,6 +1,6 @@
 # Prompt de inicialização do NERION OS
 
-Use esse prompt no Chat do Copilot (Ctrl+Shift+I) na primeira vez que abrir o projeto:
+Use esse prompt no Chat do Codex (Ctrl+Shift+I) na primeira vez que abrir o projeto:
 
 ---
 
@@ -34,6 +34,6 @@ Pronto. Tá tudo ativo?
 
 ## Salvar como favorito
 
-No chat do Copilot, após copiar o prompt acima, clique no ❤️ para salvar
+No chat do Codex, após copiar o prompt acima, clique no ❤️ para salvar
 como favorito. Próxima vez que abrir um chat, poderá clicar em "Favorites"
 e carregar esse prompt automaticamente.

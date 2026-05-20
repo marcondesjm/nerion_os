@@ -1,13 +1,13 @@
 # ✅ NERION OS — Refatoração Completa
 
-Resumo da migração de MazyOS (Claude) → NERION OS (ChatGPT + Codex).
+Resumo da migração de NERION OS (Codex) → NERION OS (ChatGPT + Codex).
 
 ---
 
 ## ✅ Concluído
 
 ### Sistema Principal
-- ✅ Renomeado `CLAUDE.md` → `NERION-OS.md`
+- ✅ Usando `NERION-OS.md` como arquivo principal
 - ✅ Atualizado conteúdo pra ChatGPT + Codex
 - ✅ Mantida estrutura de memória (empresa.md, preferencias.md, estrategia.md)
 - ✅ Adaptadas regras de fluxo de trabalho
@@ -19,7 +19,7 @@ Resumo da migração de MazyOS (Claude) → NERION OS (ChatGPT + Codex).
 
 ### Documentação
 - ✅ `.nerion/README.md` — Setup e uso básico
-- ✅ `.nerion/CONFIG.md` — Configuração do Copilot
+- ✅ `.nerion/CONFIG.md` — Configuração do Codex
 - ✅ `.nerion/MIGRATION.md` — Guia de migração
 - ✅ `.nerion/PROMPT-INICIAL.md` — Prompt pra ativar NERION
 - ✅ `.nerion/settings.json` — Settings do VS Code
@@ -30,19 +30,19 @@ Resumo da migração de MazyOS (Claude) → NERION OS (ChatGPT + Codex).
 - ✅ `.nerion/skills/aprovar-post/SKILL.md` — Skill de publicação
 
 ### Atualização de contexto
-- ✅ `_memoria/empresa.md` — Atualizado (Claude → ChatGPT)
+- ✅ `_memoria/empresa.md` — Atualizado (Codex → ChatGPT)
 
 ---
 
 ## ⏳ Próximos passos (pra você fazer)
 
 ### 1. Instalar e configurar
-- [ ] Instalar GitHub Copilot no VS Code
-- [ ] Fazer login com conta GitHub
+- [ ] Instalar Codex no VS Code
+- [ ] Fazer login com conta OpenAI/ChatGPT
 - [ ] Abrir VS Code settings e copiar valores de `.nerion/settings.json`
 
 ### 2. Ativar NERION OS
-- [ ] Abrir Chat do Copilot (Ctrl+Shift+I)
+- [ ] Abrir Chat do Codex (Ctrl+Shift+I)
 - [ ] Copiar prompt de `.nerion/PROMPT-INICIAL.md`
 - [ ] Colar no chat e executar
 - [ ] Salvar como favorito ❤️
@@ -66,25 +66,25 @@ Resumo da migração de MazyOS (Claude) → NERION OS (ChatGPT + Codex).
 
 ## Diferenças principais
 
-| Aspecto | MazyOS (Claude) | NERION OS (ChatGPT) |
+| Aspecto | NERION OS (Codex) | NERION OS (ChatGPT) |
 |---------|-----------------|-------------------|
-| IA | Claude (Anthropic) | ChatGPT (OpenAI) |
-| Rodas em | Claude Chat | VS Code + Copilot |
-| Skills | `.claude/skills/` | `.nerion/skills/` |
-| Contexto | Carregado automaticamente | Precisa ser lido pelo Copilot |
-| Setup | Automático pelo CLI | Manual (Copilot + settings) |
-| Deploy | Feito pelo Claude | Feito por script/terminal |
-| Atalhos | Nativos do Claude Chat | Via prompt no Copilot Chat |
+| IA | Codex (Anthropic) | ChatGPT (OpenAI) |
+| Rodas em | Codex | VS Code + Codex |
+| Skills | `.nerion/skills/` | `.nerion/skills/` |
+| Contexto | Carregado automaticamente | Precisa ser lido pelo Codex |
+| Setup | Automático pelo CLI | Manual (Codex + settings) |
+| Deploy | Feito pelo Codex | Feito por script/terminal |
+| Atalhos | Nativos do Codex | Via prompt no Codex |
 
 ---
 
 ## Como usar NERION OS
 
-### Via Copilot Chat (recomendado)
+### Via Codex (recomendado)
 ```
 Ctrl+Shift+I (abrir chat)
 Digitar: /salvar "meu commit"
-Copilot executa a skill
+Codex executa a skill
 ```
 
 ### Via terminal (manual)
@@ -97,7 +97,7 @@ git push origin main
 ### Via sugestão inline
 ```
 Ctrl+K (no editor)
-Copilot sugere completamento
+Codex sugere completamento
 Tab pra aceitar
 ```
 
@@ -114,13 +114,13 @@ Tab pra aceitar
 
 ## Troubleshooting rápido
 
-**Copilot não tá respondendo?**
-- Verificar se GitHub Copilot está instalado
-- Fazer login (ícone Copilot no canto inferior)
+**Codex não tá respondendo?**
+- Verificar se Codex está instalado
+- Fazer login (ícone Codex no canto inferior)
 - Abrir um arquivo e tentar `Ctrl+K` (sugestão inline)
 
 **Skills não funcionam?**
-- Copilot Chat não suporta atalhos nativamente
+- Codex não suporta atalhos nativamente
 - Use como prompt: "Execute /salvar com mensagem X"
 - Ou rodar comando no terminal manualmente
 
@@ -146,7 +146,7 @@ Se alguma coisa não está claro:
 ## Versão
 
 **NERION OS v1.0**
-Migrado de MazyOS → ChatGPT
+Migrado de NERION OS → ChatGPT
 Data: 2026-05-20
 
 Próxima versão: Add integração com Zapier/Make para automações avançadas.

@@ -1,6 +1,6 @@
-# Configuração do NERION OS para Copilot
+# Configuração do NERION OS para Codex
 
-Arquivo de configuração que o VS Code Copilot lê ao abrir o projeto.
+Arquivo de configuração que o VS Code Codex lê ao abrir o projeto.
 
 ---
 
@@ -66,7 +66,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Copilot cache (opcional)
+# Codex cache (opcional)
 .copilot/cache/
 ```
 
@@ -75,25 +75,25 @@ Thumbs.db
 ## Verificar se tá tudo configurado
 
 1. Abrir qualquer arquivo no VS Code
-2. Abrir Chat do Copilot (Ctrl+Shift+I ou Ctrl+I)
+2. Abrir Chat do Codex (Ctrl+Shift+I ou Ctrl+I)
 3. Digitar: "Qual é o contexto do meu negócio?"
-4. Se o Copilot responder baseado em `_memoria/empresa.md`, tá funcionando! ✓
+4. Se o Codex responder baseado em `_memoria/empresa.md`, tá funcionando! ✓
 
 ---
 
 ## Troubleshooting
 
-### Copilot não reconhece contexto
+### Codex não reconhece contexto
 - Verificar se `NERION-OS.md` existe
 - Verificar se `_memoria/` tem os arquivos
 - Fazer reload do VS Code (Ctrl+R)
 
 ### Chat não tá disponível
-- Verificar se GitHub Copilot Chat está instalado
-- Fazer login no GitHub (bottom left do VS Code)
+- Verificar se Codex está instalado
+- Fazer login na extensao do ChatGPT/Codex no VS Code
 - Reinstalar extensão se necessário
 
 ### Atalhos não funcionam (ex: `/aprovar-post`)
-- Copilot Chat não suporta atalhos customizados nativamente
+- Codex não suporta atalhos customizados nativamente
 - Usar como prompt: "Execute a skill /aprovar-post 5"
 - Ou criar workflow em `.nerion/workflows/`

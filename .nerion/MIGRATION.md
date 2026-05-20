@@ -1,6 +1,6 @@
-# Migração de skills: Claude → ChatGPT
+# Migração de skills: Codex → ChatGPT
 
-Guia para adaptar as skills existentes do MazyOS para o NERION OS.
+Guia para adaptar as skills existentes do NERION OS para o NERION OS.
 
 ---
 
@@ -10,14 +10,14 @@ Guia para adaptar as skills existentes do MazyOS para o NERION OS.
 **O que faz:** Publica um post (draft → published), copia imagens, faz commit, posta no Instagram/Facebook.
 
 **Arquivos originais:**
-- `.claude/skills/aprovar-post/SKILL.md`
+- `.nerion/skills/aprovar-post/SKILL.md`
 
 **Como adaptar para ChatGPT:**
 
-1. Copiar conteúdo de `.claude/skills/aprovar-post/SKILL.md`
+1. Copiar conteúdo de `.nerion/skills/aprovar-post/SKILL.md`
 2. Criar `.nerion/skills/aprovar-post/SKILL.md`
-3. Mudar referências de Claude → ChatGPT
-4. Mudar paths `.claude/` → `.nerion/`
+3. Mudar referências de Codex → ChatGPT
+4. Mudar paths `.codex/` → `.nerion/`
 5. Se usar ChatGPT API, adicionar chamadas à OpenAI client
 6. Se usar terminal, scripts continuam iguais
 
@@ -43,7 +43,7 @@ Passos:
 
 **Como adaptar:**
 
-1. Copiar `.claude/skills/salvar/SKILL.md`
+1. Copiar `.nerion/skills/salvar/SKILL.md`
 2. Criar `.nerion/skills/salvar/SKILL.md`
 3. Adapt paths e referências
 
@@ -70,18 +70,18 @@ Depois de migrar, a pasta `.nerion/skills/` vai ter:
 
 Depois de criar a skill:
 
-1. Abrir Chat do Copilot (Ctrl+Shift+I)
+1. Abrir Chat do Codex (Ctrl+Shift+I)
 2. Digitar: `/aprovar-post 1` (ou `/salvar "test commit"`)
-3. Verificar se o Copilot reconhece o comando
+3. Verificar se o Codex reconhece o comando
 4. Se não reconhecer, verificar sintaxe do SKILL.md
 
 ---
 
 ## Próximos passos
 
-- [ ] Copiar `/aprovar-post` de `.claude/` pra `.nerion/`
-- [ ] Copiar `/salvar` de `.claude/` pra `.nerion/`
-- [ ] Testar cada skill no Copilot Chat
+- [ ] Copiar `/aprovar-post` de `.codex/` pra `.nerion/`
+- [ ] Copiar `/salvar` de `.codex/` pra `.nerion/`
+- [ ] Testar cada skill no Codex
 - [ ] Documentar novas skills conforme criar
 
 ---

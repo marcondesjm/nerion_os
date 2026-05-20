@@ -61,13 +61,13 @@ Instagram + Facebook via Meta Graph API.
 
 ## Integração com ChatGPT + Codex
 
-No Chat do Copilot, digitar:
+No Chat do Codex, digitar:
 
 ```
 /aprovar-post 5
 ```
 
-O Copilot vai executar sequência completa (1-7 acima).
+O Codex vai executar sequência completa (1-7 acima).
 
 ---
 

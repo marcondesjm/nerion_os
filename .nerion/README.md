@@ -6,11 +6,11 @@ Sistema operacional pra seu negócio rodando com ChatGPT + Codex no VS Code.
 
 ## Setup inicial
 
-### 1. Instalar extensão GitHub Copilot no VS Code
+### 1. Instalar extensão Codex no VS Code
 - Abrir Extensions (Ctrl+Shift+X)
-- Buscar "GitHub Copilot"
-- Instalar a oficial do GitHub
-- Fazer login com sua conta GitHub
+- Buscar "Codex"
+- Instalar a extensao oficial da OpenAI/ChatGPT
+- Fazer login com sua conta OpenAI/ChatGPT
 
 ### 2. Configurar ChatGPT API (opcional, mas recomendado)
 Se quiser usar ChatGPT via terminal/scripts:
@@ -54,10 +54,10 @@ export OPENAI_API_KEY=sua_chave_aqui
 
 1. Abrir arquivo no VS Code
 2. Digitar comentário ou começar código
-3. Pressionar `Ctrl+K` para sugestão do Copilot
+3. Pressionar `Ctrl+K` para sugestão do Codex
 4. Aceitar com `Tab` ou rejeitar com `Esc`
 
-O Copilot lê automaticamente:
+O Codex lê automaticamente:
 - `NERION-OS.md` (regras do sistema)
 - `_memoria/empresa.md` (contexto do negócio)
 - `_memoria/preferencias.md` (tom e estilo)
@@ -65,7 +65,7 @@ O Copilot lê automaticamente:
 
 ### Via command (prompt)
 
-Abrir Chat do Copilot (`Ctrl+Shift+I`) e escrever:
+Abrir Chat do Codex (`Ctrl+Shift+I`) e escrever:
 
 ```
 /aprovar-post numero-do-post
@@ -108,7 +108,7 @@ Quando o ChatGPT errar ou você corrigir algo, diga:
 
 > "Salva isso pra próxima vez"
 
-O Copilot vai atualizar automaticamente:
+O Codex vai atualizar automaticamente:
 - `_memoria/empresa.md` (negócio)
 - `_memoria/preferencias.md` (estilo)
 - `_memoria/estrategia.md` (foco)
@@ -118,9 +118,9 @@ O Copilot vai atualizar automaticamente:
 
 ## Troubleshooting
 
-### Copilot não tá sugerindo nada
-- Verificar se GitHub Copilot está ativado (VS Code → Settings → Extensions → Copilot)
-- Verificar se você fez login (Copilot icon no canto inferior)
+### Codex não tá sugerindo nada
+- Verificar se Codex está ativado (VS Code → Settings → Extensions → Codex)
+- Verificar se você fez login (Codex icon no canto inferior)
 - Reinstalar a extensão se necessário
 
 ### Skills não funcionam
@@ -137,7 +137,7 @@ O Copilot vai atualizar automaticamente:
 
 ## Próximos passos
 
-1. ✅ Renomear CLAUDE.md → NERION-OS.md
+1. ✅ Renomear NERION-OS.md → NERION-OS.md
 2. ✅ Criar pastas `.nerion/skills` e `.nerion/workflows`
 3. ⏳ Preencher `_memoria/empresa.md` com dados
 4. ⏳ Adaptar skills existentes pra ChatGPT/Codex

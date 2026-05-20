@@ -5,7 +5,7 @@ NERION-OS (raiz do projeto)
 │
 ├── NERION-OS.md                    # Sistema principal - LEIA ISSO PRIMEIRO
 │
-├── _memoria/                       # Seu contexto (lido pelo Copilot)
+├── _memoria/                       # Seu contexto (lido pelo Codex)
 │   ├── empresa.md                  # Negócio, clientes, serviços
 │   ├── preferencias.md             # Tom, estilo, o que evitar
 │   └── estrategia.md               # Foco, prioridades, prazos
@@ -14,7 +14,7 @@ NERION-OS (raiz do projeto)
 │   ├── README.md                   # Setup rápido
 │   ├── CHECKLIST.md                # Checklist de implementação
 │   ├── CONFIG.md                   # Configuração técnica
-│   ├── MIGRATION.md                # Como migrar skills do Claude
+│   ├── MIGRATION.md                # Como migrar skills do Codex
 │   ├── PROMPT-INICIAL.md           # Prompt pra ativar NERION
 │   ├── settings.json               # Settings do VS Code
 │   │
@@ -46,10 +46,10 @@ NERION-OS (raiz do projeto)
 │   │       ├── design-guide-agencia.md
 │   │       └── design-guide-solopreneur.md
 │   └── perfis/
-│       ├── claude-md-agencia.md
-│       ├── claude-md-empresa.md
-│       ├── claude-md-freelancer.md
-│       └── claude-md-solopreneur.md
+│       ├── codex-md-agencia.md
+│       ├── codex-md-empresa.md
+│       ├── codex-md-freelancer.md
+│       └── codex-md-solopreneur.md
 │
 ├── saidas/                         # Outputs finais
 │   ├── public/                     # Pasta pra deploy (Netlify/Vercel)
@@ -75,11 +75,11 @@ NERION-OS (raiz do projeto)
    ↓
 2. Fazer edições (posts, design, conteúdo)
    ↓
-3. Abrir Chat do Copilot (Ctrl+Shift+I)
+3. Abrir Chat do Codex (Ctrl+Shift+I)
    ↓
 4. Digitar: /salvar "descrição"
    ↓
-5. Copilot faz commit + push
+5. Codex faz commit + push
    ↓
 6. GitHub redeploya (Netlify/Vercel)
    ↓
@@ -88,17 +88,17 @@ NERION-OS (raiz do projeto)
 
 ---
 
-## Diferença chave: MazyOS vs NERION OS
+## Diferença chave: NERION OS vs NERION OS
 
-**MazyOS:**
-- Rodava em Claude Chat
-- Skills eram criadas via Claude IDE
+**NERION OS:**
+- Rodava em Codex
+- Skills eram criadas via Codex
 - Context era carregado automaticamente
 
 **NERION OS:**
-- Roda em VS Code + Copilot
+- Roda em VS Code + Codex
 - Skills são arquivos Markdown em `.nerion/skills/`
-- Você copia/cola prompt pra ativar no Copilot Chat
+- Você copia/cola prompt pra ativar no Codex
 - Mais flexível, rodas em ambiente local
 
 ---
@@ -119,7 +119,7 @@ NERION-OS (raiz do projeto)
 
 - Quer criar nova skill? → Leia `.nerion/skills/TEMPLATE.md`
 - Quer saber como configurar? → Leia `.nerion/CONFIG.md`
-- Quer saber como migrar de Claude? → Leia `.nerion/MIGRATION.md`
+- Quer saber como migrar de Codex? → Leia `.nerion/MIGRATION.md`
 - Quer começar agora? → Leia `.nerion/README.md`
 
 ---

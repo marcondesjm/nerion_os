@@ -26,15 +26,15 @@ Salva o trabalho do NERION OS no GitHub (commit + push).
 
 ---
 
-## Integração com VS Code + Copilot
+## Integração com VS Code + Codex
 
-No Chat do Copilot, digitar:
+No Chat do Codex, digitar:
 
 ```
 /salvar Adiciona novo post sobre X
 ```
 
-O Copilot vai executar:
+O Codex vai executar:
 
 ```bash
 git add .
