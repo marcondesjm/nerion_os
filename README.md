@@ -169,3 +169,7 @@ carrossel, slide ou peca que o sistema gera respeita isso.
 
 `marketing/`, `saidas/` e `scripts/` sao o resultado. O sistema produz,
 versiona no GitHub e fica tudo seu.
+
+---
+
+www.nerionos.com.br
