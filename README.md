@@ -1,11 +1,13 @@
-# NERION OS
+# Sistema Operacional NERION
 
-> Sistema operacional do negocio rodando com ChatGPT, Codex e memoria propria.
+> O sistema operacional do seu negocio dentro do CODEX.
 
-O NERION OS organiza o contexto, a identidade, os processos e as habilidades
-do seu negocio dentro de uma pasta versionada no GitHub. A ideia e simples:
-o trabalho deixa de ficar solto em conversas e passa a rodar em cima de uma
-base viva, com memoria, padroes e comandos reutilizaveis.
+Voce acabou de instalar o NerionOS. Em alguns minutos, sua empresa vai ter
+uma memoria propria, uma identidade visual aplicada em tudo que o sistema
+gera, e 15 habilidades prontas para fazer marketing, SEO, anuncios e operacao
+rodarem com voce dirigindo.
+
+Bora voar.
 
 ---
 
