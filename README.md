@@ -86,3 +86,17 @@ dentro do NerionOS (decide -> executa -> captura -> realimenta -> ajusta
 sozinho).
 
 O sistema nao substitui voce. Vira parte da sua empresa.
+
+---
+
+## Como o NerionOS pensa
+
+`_memoria/` e o cerebro. Tudo o que importa do seu negocio mora aqui:
+quem e a empresa, como ela fala, o que esta em foco essa semana. O Codex
+le isso antes de cada resposta. Quanto melhor a memoria, melhor o sistema.
+
+`identidade/` e o rosto. Cores, fontes, logotipo, padrao visual. Todo
+carrossel, slide ou peca que o sistema gera respeita isso.
+
+`marketing/`, `saidas/` e `scripts/` sao o resultado. O sistema produz,
+versiona no GitHub e fica tudo seu.
