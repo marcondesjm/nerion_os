@@ -76,8 +76,13 @@ como fluxo principal da tarefa.
 
 ## Tese
 
-O NERION OS nao e apenas uma colecao de prompts. Ele e uma forma de dar
-continuidade ao trabalho com IA: contexto persistente, processos claros,
-arquivos versionados e aprendizado acumulado.
+IA nao e uma ferramenta que sua empresa usa. E o sistema operacional em que
+ela roda.
 
-Cada melhoria feita aqui fica registrada para a proxima sessao.
+A diferenca nao e velocidade. E capacidade nova: uma pessoa com IA constroi
+o que antes exigia um time inteiro. Cada processo critico que hoje roda em
+open loop (decide -> executa -> nao mede -> repete cego) vira closed loop
+dentro do NerionOS (decide -> executa -> captura -> realimenta -> ajusta
+sozinho).
+
+O sistema nao substitui voce. Vira parte da sua empresa.
