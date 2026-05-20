@@ -11,6 +11,41 @@ Bora voar.
 
 ---
 
+## Ligando o sistema
+
+Dois caminhos. Escolhe o que combina contigo.
+
+### Pelo CODEX (mais rapido)
+
+Abre o CODEX em qualquer pasta e cola:
+
+```text
+Clona o https://github.com/marcondesjm/nerion_os/ na pasta atual,
+entra nela e roda o /instalar.
+```
+
+Ele clona, entra na pasta nova e dispara a entrevista de configuracao. Voce
+so responde.
+
+### Pelo terminal (mais previsivel)
+
+```bash
+git clone https://github.com/marcondesjm/nerion_os/
+cd nerion_os
+code .
+```
+
+Na janela do VS Code que abre: terminal integrado -> `codex` -> `/instalar`.
+
+Quando `/instalar` terminar, renomeia a pasta `NerionOS/` pro nome do seu
+negocio (fecha o VS Code, renomeia no Explorer/Finder, abre de novo). A pasta
+nao fica como "NerionOS": ela e o seu negocio agora.
+
+O `/instalar` roda uma vez so. Ele entrevista sobre o negocio, monta a memoria
+e configura o sistema. Depois disso, e so usar.
+
+---
+
 ## O que tem aqui
 
 **Memoria do negocio**
