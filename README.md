@@ -75,6 +75,38 @@ entradas de trabalho e automacoes.
 
 ---
 
+## O sistema
+
+**Nucleo** - o jeito de operar o dia a dia
+
+`/abrir` carrega o contexto antes de cada sessao de trabalho. `/salvar` faz
+commit + push no GitHub. `/atualizar` varre o projeto e atualiza a memoria.
+`/novo-projeto` cria massa isolada pra cada cliente ou iniciativa.
+`/mapear-rotinas` descobre o que voce repete e transforma em habilidade
+personalizada.
+
+**Conteudo e SEO** - vitrine publica da empresa
+
+`/carrossel` cria carrosseis 1080x1350 com identidade da marca, com ou sem
+foto IA. `/publicar-tema` pega um tema e entrega artigo de blog + carrossel
++ 3 legendas amarradas. `/seo` roda fluxo completo de 8 passos: demanda,
+concorrencia, GMB, on-page, conteudo, anuncios, monitoramento e GEO.
+`/responder-avaliacoes` escreve respostas humanas pras reviews do Google.
+`/aprovar-post` publica blog + Instagram + Facebook num comando.
+
+**Anuncios pagos** - onde o dinheiro entra
+
+`/anuncio-google` monta a campanha inteira em CSV pronto para importar no
+Google Ads Editor. `/relatorio-ads` le as exportacoes do Google + Meta e
+devolve relatorio semanal com alertas e recomendacoes.
+
+**Producao** - ferramentas do dia a dia
+
+`/analisar-dados` le CSV/XLSX/PDF e gera resumo executivo.
+`/email-profissional` rascunha email a partir de contexto livre.
+
+---
+
 ## Como usar
 
 Abra esta pasta no VS Code com o Codex configurado.
