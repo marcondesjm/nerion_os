@@ -172,4 +172,4 @@ versiona no GitHub e fica tudo seu.
 
 ---
 
-www.nerionos.com.br
+[https://nerionos.vercel.app]
